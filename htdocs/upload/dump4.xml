@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<tblutente>
+<elem>
+<codUtente>5</codUtente>
+<nome>TesteUp</nome>
+<morada>Faro</morada>
+<telefone>123456789</telefone>
+</elem>
+</tblutente>

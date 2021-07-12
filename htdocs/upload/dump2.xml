@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<tblutente><elem><codUtente>1</codUtente><nome>Teste</nome><morada>Faro</morada><telefone>123456789</telefone></elem><elem><codUtente>2</codUtente><nome>Teste3</nome><morada>Algum Lugar</morada><telefone>2222222</telefone></elem><elem><codUtente>3</codUtente><nome>funcione</nome><morada>FAro</morada><telefone>123456789</telefone></elem></tblutente>

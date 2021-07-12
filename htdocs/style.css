@@ -1,0 +1,149 @@
+header{
+  top:0;
+  left:0;
+  width:100%;
+  position:fixed;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #624;
+  position: fixed;
+  left:0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #666;
+}
+#header-img{
+  width:100px;
+  float: right;
+}
+header{
+  float: center;
+}
+body{
+  position: center;
+  margin: 0;  
+  padding: 0;  
+  background-color:#6abadeba;  
+  font-family: 'Arial';
+}
+.login{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #23463f;  
+    border-radius: 15px ;  
+      
+} 
+h2{  
+    text-align: center;  
+    color: #0b1314;  
+    padding: 20px;  
+} 
+label{  
+    color: #f7f7f7;  
+    font-size: 17px;  
+} 
+span{  
+    color: white;  
+    font-size: 17px;  
+} 
+.flex-container{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+label input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width:0; 
+    height:0;
+  }
+  label span {
+    position: absolute;
+    top:0;
+    left:0;
+    width:20px; 
+    height:20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    transition: .3s background-color; 
+  }
+  label span:after {
+    content: "";
+    position: absolute;
+    display: none;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#fff;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+  }
+  label:hover span {
+    background-color: #ccc;
+  }
+  
+  
+  label input:checked ~ span {
+    background-color: #2eaadc;
+  }
+  label input:checked ~ span:after {
+    display:block;
+  }
+  select {
+    width: 10%;
+    padding:10px;
+    border-radius:10px;
+  }
+  button {
+    appearance:none;
+    -webkit-appearance:none;
+    padding:10px;
+    border:none;
+    background-color:#3F51B5;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+    width:100%;
+  
+  }
+  input[type=text] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+  .rounded-input {
+    padding:10px;
+    border-radius:10px;
+  }
+@media only screen and(min-width:1440px){
+  .flex-container{
+  display:flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+} 
+}
