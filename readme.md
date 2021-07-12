@@ -1,6 +1,6 @@
 ﻿# TPDAM- Aplicação Web: Bem Fazer - Guia do utilizador:
 
-A aplicação pode ser acessada por meio da seguinte URL: http://34.65.1.64/ e logo após acessar o utilizador se depara com uma página na qual há, em uma barra flutuante, a opção de login. Ao realizar login o utilizador vai ser redirecionado para a página de Administrador ou então para a página de Operador, a depender de como o mesmo está cadastrado.
+A aplicação pode ser acessada por meio da seguinte URL: http://34.65.1.64/ (atualmente fora do ar) e logo após acessar o utilizador se depara com uma página na qual há, em uma barra flutuante, a opção de login. Ao realizar login o utilizador vai ser redirecionado para a página de Administrador ou então para a página de Operador, a depender de como o mesmo está cadastrado.
 
 
 # Funcionalidades da página de Operador
@@ -19,5 +19,5 @@ Muitos dos formulários presentes na aplicação usam utilizam de dupla validaç
 
 No registo de um Operador/Administrador utilizam-se métodos para criptografar a senha do mesmo e também as rotas (página adm ou página op) estão bloqueadas para usuários que não sejam da categoria a qual a página pertence.
 
-Aluno: Iago Gomes - 66453
+Autor: Iago Gomes
 ```
